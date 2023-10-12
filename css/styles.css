@@ -404,3 +404,8 @@ header {
   border-radius: 0px 0px 4px 4px;
   gap: 32px;
 }
+.section-two-icons {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+}
