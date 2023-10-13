@@ -355,6 +355,8 @@ ol {
 .footer {
   background-color: #2e2f42;
   color: var(--CLOUD, #f4f4fd);
+  display: flex;
+  align-items: baseline;
 }
 footer {
   padding: 100px 0;
