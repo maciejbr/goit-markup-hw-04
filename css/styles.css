@@ -46,6 +46,20 @@ ol {
   padding: 0 15px;
   max-width: 1158px;
 }
+.section-two-icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.section-two-icons {
+  width: 64px;
+  height: 64px;
+}
 
 .link {
   text-decoration: none;
