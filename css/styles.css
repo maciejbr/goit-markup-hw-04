@@ -155,6 +155,34 @@ ol {
 .section-four-li {
   background-color: #ffffff;
 }
+.section-four-icons-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.section-four-icons-li {
+  width: 40px;
+  height: 40px;
+  background-color: ;
+}
+.link-icon {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link-icon:hover {
+  background-color: #404bbf;
+}
+.link-icon:focus {
+  background-color: #404bbf;
+}
+.icon-li {
+  fill: #f4f4fd;
+}
 
 .address {
   font-style: normal;
