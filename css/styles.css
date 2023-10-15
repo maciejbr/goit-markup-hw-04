@@ -473,6 +473,7 @@ header {
   height: 64px;
   flex-shrink: 0;
 }
+
 .div-footer-one {
   display: flex;
   align-items: baseline;
