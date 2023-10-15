@@ -4,7 +4,6 @@
   --color-footer: #f4f4fd;
   --color-paragraph: #434455;
   --color-portfolio: #e7e9fc;
-  --color-section-five: #8e8f99;
   --color-footer-div: #ffffff;
 }
 body {
@@ -309,7 +308,7 @@ ol {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--section-five);
+  color: v#8e8f99;
 }
 .section-five-link:hover {
   border-color: #404bbf;
@@ -358,6 +357,15 @@ ol {
 }
 
 .heading-five {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.heading-six {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
