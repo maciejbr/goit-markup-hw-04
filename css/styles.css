@@ -487,6 +487,10 @@ ol {
 footer {
   padding: 100px 0;
 }
+.footer-main {
+  display: flex;
+  align-items: baseline;
+}
 
 .visually-hidden {
   position: absolute;
@@ -541,7 +545,7 @@ header {
 .div-footer-one {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+  margin-right: 120px;
 }
 .footer-paragraph-one {
   font-weight: 500;
