@@ -474,7 +474,9 @@ header {
   flex-shrink: 0;
 }
 .div-footer-one {
-  margin-right: 120px;
+  display: flex;
+  align-items: baseline;
+  gap: 120px;
 }
 .footer-paragraph-one {
   font-weight: 500;
