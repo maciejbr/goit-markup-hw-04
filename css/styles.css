@@ -295,14 +295,6 @@ ol {
   padding-bottom: 120px;
 }
 
-.heading-five {
-  font-size: 36px;
-  line-height: 1.11;
-  color: var(--color-section1);
-  margin-bottom: 72px;
-  text-align: center;
-}
-
 .section-five-ul {
   display: flex;
   gap: 24px;
@@ -369,14 +361,13 @@ ol {
 }
 
 .heading-five {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--color-section1);
+  margin-bottom: 72px;
   text-align: center;
-  margin-bottom: 8px;
 }
+
 .heading-six {
   font-weight: 500;
   font-size: 20px;
