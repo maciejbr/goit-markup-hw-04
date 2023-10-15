@@ -4,6 +4,8 @@
   --color-footer: #f4f4fd;
   --color-paragraph: #434455;
   --color-portfolio: #e7e9fc;
+  --color-section-five: #8e8f99;
+  --color-footer-div: #ffffff;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -279,6 +281,48 @@ ol {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.section-five {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.heading-five {
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--color-section1);
+  margin-bottom: 72px;
+  text-align: center;
+}
+.section-five-ul {
+  display: flex;
+  gap: 24px;
+}
+.section-five-li {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+
+.section-five-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--section-five);
+}
+.section-five-link:hover {
+  border-color: #404bbf;
+  color: #404bbf;
+}
+.section-five-link:focus {
+  border-color: #404bbf;
+  color: #404bbf;
+}
+
+.section-five-logo {
+  fill: currentColor;
+}
 .section-six {
   padding-top: 96px;
   padding-bottom: 120px;
