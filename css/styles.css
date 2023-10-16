@@ -536,8 +536,6 @@ header {
 }
 
 .div-footer-one {
-  display: flex;
-  align-items: baseline;
   margin-right: 120px;
 }
 .footer-paragraph-one {
