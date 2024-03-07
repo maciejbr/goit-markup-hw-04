@@ -62,6 +62,22 @@ ol {
   max-width: 1158px;
 }
 
+.section-one-icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.section-one-icons {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+}
+
 .logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -212,6 +228,16 @@ header {
 .section-hero {
   background-color: var(--color-section1);
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
 }
 
 .heading-hero {
