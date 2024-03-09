@@ -155,11 +155,7 @@ header {
   border-radius: 2px;
 }
 
-.first-link:hover {
-  color: #404bbf;
-}
-
-.first-link:focus {
+.first-link:hover .first-link:focus {
   color: #404bbf;
 }
 
