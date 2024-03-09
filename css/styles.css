@@ -112,6 +112,7 @@ header {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  justify-content: space-between;
 }
 
 .nav {
@@ -231,7 +232,6 @@ header {
 
 .address {
   font-style: normal;
-  margin-left: auto;
   display: flex;
   gap: 40px;
   padding: 24px 0;
@@ -317,7 +317,7 @@ header {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-align: center;
+  text-align: left;
   margin-bottom: 8px;
 }
 
